@@ -57,7 +57,7 @@ def create_atemp_and_cnt_df(df):
 
    return atemp_and_cnt_df
 
-hour_df = pd.read_csv('dashboard/main_data.csv')
+hour_df = pd.read_csv('main_data.csv')
 hour_df = hour_df.sort_values(by='dteday', ascending=True)
 
 hour_df['dteday'] = pd.to_datetime(hour_df['dteday'], errors='coerce')
