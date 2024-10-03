@@ -243,7 +243,7 @@ st.pyplot(fig)
 st.subheader('Total Rental Bikes for Each Air Temperature Category')
 
 average_atemp = (main_df['atemp'].mean() * 66) - 16
-st.metric('Average Air Temperature', value=round(average_atemp, 2))
+st.metric('Average Air Temperature (Celcius)', value=round(average_atemp, 2))
 
 max_atemp_sum = atemp_and_cnt_df[('cnt', 'sum')].max()
 
