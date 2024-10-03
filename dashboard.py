@@ -84,7 +84,7 @@ hlday_and_cr_df = create_hlday_and_cr_df(main_df)
 wrkday_and_cr_df = create_wrkday_and_cr_df(main_df)
 atemp_and_cnt_df = create_atemp_and_cnt_df(main_df)
 
-st.header('Dashboard :sparkles:')
+st.header('Bike Sharing Dashboard :sparkles:')
 
 st.subheader('Total Number of Rental Bikes per Season')
 
